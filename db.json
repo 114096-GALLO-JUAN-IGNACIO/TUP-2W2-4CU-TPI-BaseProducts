@@ -1,4 +1,4 @@
-"baseProducts": [
+{"baseProducts": [
    {
       "idProduct":1,
       "name":"Hammer",
@@ -200,3 +200,4 @@
       "urlImage":"paint_roller.jpg"
    }
 ]
+}
