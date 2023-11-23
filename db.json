@@ -1,203 +1,617 @@
-{"baseProducts": [
-   {
-      "idProduct":1,
-      "name":"Hammer",
-      "description":"Heavy duty steel hammer",
-      "unitPrice":15.99,
-      "stockQuantity":50,
-      "unitOfMeasure":"piece",
-      "idCategory":1,
-      "urlImage":"hammer.jpg"
-   },
-   {
-      "idProduct":2,
-      "name":"Screwdriver",
-      "description":"Flat head screwdriver",
-      "unitPrice":9.99,
-      "stockQuantity":100,
-      "unitOfMeasure":"piece",
-      "idCategory":1,
-      "urlImage":"screwdriver.jpg"
-   },
-   {
-      "idProduct":3,
-      "name":"Drill",
-      "description":"Cordless power drill",
-      "unitPrice":79.99,
-      "stockQuantity":30,
-      "unitOfMeasure":"piece",
-      "idCategory":2,
-      "urlImage":"drill.jpg"
-   },
-   {
-      "idProduct":4,
-      "name":"Nails",
-      "description":"1 inch steel nails",
-      "unitPrice":4.99,
-      "stockQuantity":200,
-      "unitOfMeasure":"box",
-      "idCategory":3,
-      "urlImage":"nails.jpg"
-   },
-   {
-      "idProduct":5,
-      "name":"Saw",
-      "description":"Hand saw with wooden handle",
-      "unitPrice":25.99,
-      "stockQuantity":40,
-      "unitOfMeasure":"piece",
-      "idCategory":1,
-      "urlImage":"saw.jpg"
-   },
-   {
-      "idProduct":6,
-      "name":"Wrench",
-      "description":"Adjustable wrench",
-      "unitPrice":12.99,
-      "stockQuantity":60,
-      "unitOfMeasure":"piece",
-      "idCategory":1,
-      "urlImage":"wrench.jpg"
-   },
-   {
-      "idProduct":7,
-      "name":"Tape Measure",
-      "description":"25 foot retractable tape measure",
-      "unitPrice":7.99,
-      "stockQuantity":80,
-      "unitOfMeasure":"piece",
-      "idCategory":4,
-      "urlImage":"tape_measure.jpg"
-   },
-   {
-      "idProduct":8,
-      "name":"Pliers",
-      "description":"Needle nose pliers",
-      "unitPrice":11.99,
-      "stockQuantity":70,
-      "unitOfMeasure":"piece",
-      "idCategory":1,
-      "urlImage":"pliers.jpg"
-   },
-   {
-      "idProduct":9,
-      "name":"Level",
-      "description":"9 inch torpedo level",
-      "unitPrice":6.99,
-      "stockQuantity":90,
-      "unitOfMeasure":"piece",
-      "idCategory":4,
-      "urlImage":"level.jpg"
-   },
-   {
-      "idProduct":10,
-      "name":"Paint Brush",
-      "description":"2 inch paint brush",
-      "unitPrice":5.99,
-      "stockQuantity":120,
-      "unitOfMeasure":"piece",
-      "idCategory":5,
-      "urlImage":"paint_brush.jpg"
-   },
-   {
-      "idProduct":11,
-      "name":"Safety Glasses",
-      "description":"Clear safety glasses",
-      "unitPrice":8.99,
-      "stockQuantity":150,
-      "unitOfMeasure":"pair",
-      "idCategory":6,
-      "urlImage":"safety_glasses.jpg"
-   },
-   {
-      "idProduct":12,
-      "name":"Work Gloves",
-      "description":"Leather work gloves",
-      "unitPrice":14.99,
-      "stockQuantity":75,
-      "unitOfMeasure":"pair",
-      "idCategory":6,
-      "urlImage":"work_gloves.jpg"
-   },
-   {
-      "idProduct":13,
-      "name":"Ladder",
-      "description":"6 foot aluminum ladder",
-      "unitPrice":59.99,
-      "stockQuantity":20,
-      "unitOfMeasure":"piece",
-      "idCategory":7,
-      "urlImage":"ladder.jpg"
-   },
-   {
-      "idProduct":14,
-      "name":"Extension Cord",
-      "description":"50 foot extension cord",
-      "unitPrice":24.99,
-      "stockQuantity":45,
-      "unitOfMeasure":"piece",
-      "idCategory":2,
-      "urlImage":"extension_cord.jpg"
-   },
-   {
-      "idProduct":15,
-      "name":"Flashlight",
-      "description":"LED flashlight",
-      "unitPrice":12.99,
-      "stockQuantity":85,
-      "unitOfMeasure":"piece",
-      "idCategory":2,
-      "urlImage":"flashlight.jpg"
-   },
-   {
-      "idProduct":16,
-      "name":"Screws",
-      "description":"1 inch wood screws",
-      "unitPrice":4.99,
-      "stockQuantity":180,
-      "unitOfMeasure":"box",
-      "idCategory":3,
-      "urlImage":"screws.jpg"
-   },
-   {
-      "idProduct":17,
-      "name":"Sandpaper",
-      "description":"Medium grit sandpaper",
-      "unitPrice":3.99,
-      "stockQuantity":200,
-      "unitOfMeasure":"pack",
-      "idCategory":5,
-      "urlImage":"sandpaper.jpg"
-   },
-   {
-      "idProduct":18,
-      "name":"Drill Bits",
-      "description":"Set of 10 drill bits",
-      "unitPrice":19.99,
-      "stockQuantity":55,
-      "unitOfMeasure":"set",
-      "idCategory":2,
-      "urlImage":"drill_bits.jpg"
-   },
-   {
-      "idProduct":19,
-      "name":"Tool Box",
-      "description":"Plastic tool box",
-      "unitPrice":29.99,
-      "stockQuantity":30,
-      "unitOfMeasure":"piece",
-      "idCategory":7,
-      "urlImage":"tool_box.jpg"
-   },
-   {
-      "idProduct":20,
-      "name":"Paint Roller",
-      "description":"9 inch paint roller",
-      "unitPrice":5.99,
-      "stockQuantity":100,
-      "unitOfMeasure":"piece",
-      "idCategory":5,
-      "urlImage":"paint_roller.jpg"
-   }
-]
+{
+  "products": [
+    {
+      "description": "cosas varias",
+      "name": "Amoladora Angular Versa Pro 2400 W 230 Mm Ferreteria Express",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 47,
+      "stock_quantity": 1600,
+      "unit_of_measure": null,
+      "unit_price": 13550,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "cosas varias",
+      "name": "Amoladora angular eléctrica 820 w 115 mm",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 53,
+      "stock_quantity": 2100,
+      "unit_of_measure": null,
+      "unit_price": 19000,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "cepillos",
+      "name": "Cepillos De Bronce Para Taladro",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 49,
+      "stock_quantity": 1700,
+      "unit_of_measure": null,
+      "unit_price": 1850,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Carro porta herramientas",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 52,
+      "stock_quantity": 2000,
+      "unit_of_measure": null,
+      "unit_price": 5950,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavo mesa",
+      "name": "Clavos M0",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 41,
+      "stock_quantity": 1200,
+      "unit_of_measure": null,
+      "unit_price": 1250,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "cosas varias",
+      "name": "Serrucho de poda",
+      "category": {
+        "name": "Jardinería y Hogar",
+        "description": "Productos para el cuidado y mantenimiento del jardin.",
+        "id_category": 4,
+        "is_deleted": null
+      },
+      "discount": 10,
+      "id_product": 27,
+      "stock_quantity": 300,
+      "unit_of_measure": "unidad",
+      "unit_price": 3000,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699730957/cjg5ayxbobo6tqms8v6v.png",
+      "price_product": 2700,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos M2 para madera",
+      "name": "Clavos M2",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 36,
+      "stock_quantity": 700,
+      "unit_of_measure": null,
+      "unit_price": 1700,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Cinta métrica de 5 metros con bloqueo.",
+      "name": "Cinta métrica",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": 10,
+      "id_product": 67,
+      "stock_quantity": 100,
+      "unit_of_measure": "Unidad",
+      "unit_price": 3500,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699929445/zixpqboc2untt3lqvtp7.png",
+      "price_product": 3150,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Caladora 750W",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 69,
+      "stock_quantity": 5,
+      "unit_of_measure": null,
+      "unit_price": 16700,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Motor: Honda GX390\nPotencia del motor: 13HP\nMáxima profundidad de corte: 15cm\nPeso en operación: 130kg",
+      "name": "Cortadora Pavimento Ah480 Ø 20 - 13hp Fmt - Motor Honda",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 58,
+      "stock_quantity": 2600,
+      "unit_of_measure": null,
+      "unit_price": 26500,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1700427429/jzhssmjs0tjxwjlkt8mw.webp",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Martillo Stanley",
+      "name": "Martillo Stanley M1",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 77,
+      "stock_quantity": 20,
+      "unit_of_measure": "N/A",
+      "unit_price": 5000,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1700703549/u3pu8lz5wfvicxyssrwh.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Herramientas",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 33,
+      "stock_quantity": 500,
+      "unit_of_measure": null,
+      "unit_price": 500,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699330388/p8dufosexi9zhfnamyot.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "lampara",
+      "name": "Lampara led",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": 50,
+      "id_product": 45,
+      "stock_quantity": 1400,
+      "unit_of_measure": null,
+      "unit_price": 5000,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699455319/fk9luwsjne03qi8yfeiw.png",
+      "price_product": 2500,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos M1 para madera",
+      "name": "Clavos M1",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 35,
+      "stock_quantity": 600,
+      "unit_of_measure": null,
+      "unit_price": 5550,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos M3 para madera",
+      "name": "Clavos M3",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 37,
+      "stock_quantity": 800,
+      "unit_of_measure": null,
+      "unit_price": 800,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos M4 madera",
+      "name": "Clavos M4",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 38,
+      "stock_quantity": 900,
+      "unit_of_measure": null,
+      "unit_price": 900,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Lampara comun",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": 25,
+      "id_product": 46,
+      "stock_quantity": 1500,
+      "unit_of_measure": null,
+      "unit_price": 1500,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699455416/qe2kv5xllrmfd1aeuikm.png",
+      "price_product": 1125,
+      "is_deleted": false
+    },
+    {
+      "description": "clavos m5 madera",
+      "name": "Clavos M5",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 39,
+      "stock_quantity": 1000,
+      "unit_of_measure": null,
+      "unit_price": 1000,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "asd",
+      "name": "Disco Base Abrojo Amoladora Lustrar Pulir 115mm Subte A",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 50,
+      "stock_quantity": 1800,
+      "unit_of_measure": null,
+      "unit_price": 1800,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699455991/iqausivgocolhgpzkccw.png",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Serrucho",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 28,
+      "stock_quantity": 400,
+      "unit_of_measure": null,
+      "unit_price": 400,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Mm Ferreteria Express",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 51,
+      "stock_quantity": 1900,
+      "unit_of_measure": null,
+      "unit_price": 1900,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos m9 madera",
+      "name": "Clavos M6",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 40,
+      "stock_quantity": 1100,
+      "unit_of_measure": null,
+      "unit_price": 1100,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos cal",
+      "name": "Clavos T0",
+      "category": {
+        "name": "Clavos",
+        "description": "Categoria para guardar todo tipo de clavos.",
+        "id_category": 11,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 42,
+      "stock_quantity": 1300,
+      "unit_of_measure": null,
+      "unit_price": 1300,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Disco diamantado 4 1/2 continuo",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": 12,
+      "id_product": 54,
+      "stock_quantity": 2200,
+      "unit_of_measure": null,
+      "unit_price": 6100,
+      "url_image": null,
+      "price_product": 5368,
+      "is_deleted": false
+    },
+    {
+      "description": "cosas varias",
+      "name": "Kit de herramientas manuales con 152 piezas",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 57,
+      "stock_quantity": 2500,
+      "unit_of_measure": null,
+      "unit_price": 23500,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": null,
+      "name": "Martillo",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 20,
+      "stock_quantity": 200,
+      "unit_of_measure": null,
+      "unit_price": 200,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "cosas varias",
+      "name": "MÉNSULA 30 X 35 CM",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 56,
+      "stock_quantity": 2400,
+      "unit_of_measure": null,
+      "unit_price": 2400,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699669883/mqwgiohvtaxnjioaxhvl.png",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Martillo",
+      "name": "Martillo de garra",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 61,
+      "stock_quantity": 2900,
+      "unit_of_measure": null,
+      "unit_price": 2900,
+      "url_image": "https://example.com/martillo.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Destornillador",
+      "name": "Destornillador Phillips",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": 15,
+      "id_product": 62,
+      "stock_quantity": 3000,
+      "unit_of_measure": null,
+      "unit_price": 3000,
+      "url_image": "https://example.com/destornillador.jpg",
+      "price_product": 2550,
+      "is_deleted": false
+    },
+    {
+      "description": "Sierra",
+      "name": "Sierra de mano",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 64,
+      "stock_quantity": 3200,
+      "unit_of_measure": null,
+      "unit_price": 3200,
+      "url_image": "https://example.com/sierra.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Clavos",
+      "name": "Clavos de acero",
+      "category": {
+        "name": "Productos Varios",
+        "description": "Productos variados.",
+        "id_category": 1,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 65,
+      "stock_quantity": 3300,
+      "unit_of_measure": null,
+      "unit_price": 3300,
+      "url_image": "https://example.com/clavos.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Pintura",
+      "name": "Pintura acrílica blanca",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 66,
+      "stock_quantity": 3400,
+      "unit_of_measure": null,
+      "unit_price": 3400,
+      "url_image": "https://example.com/pintura.jpg",
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Motor: Honda GX390\nPotencia del motor: 13HP\nMáxima profundidad de corte: 15cm\nPeso en operación: 130kg\nVelocidad rotación del disco: 2900 r/min\nCapacidad tanque agua: 30 Lts",
+      "name": "Cortadora Pavimento Ah750 - Motor Honda",
+      "category": {
+        "name": "Maquinaria",
+        "description": "Categoria para guardar todo tipo de maquinas que sirvan para nuestra ferreteria llamada FerNorte ",
+        "id_category": 3,
+        "is_deleted": null
+      },
+      "discount": null,
+      "id_product": 59,
+      "stock_quantity": 2700,
+      "unit_of_measure": null,
+      "unit_price": 35900,
+      "url_image": null,
+      "price_product": null,
+      "is_deleted": false
+    },
+    {
+      "description": "Martillo nuevo.",
+      "name": "Martillo nuevo",
+      "category": {
+        "name": "Herramientas",
+        "description": "Herramientas en general.",
+        "id_category": 2,
+        "is_deleted": null
+      },
+      "discount": 10,
+      "id_product": 68,
+      "stock_quantity": 67,
+      "unit_of_measure": "unidad",
+      "unit_price": 8000,
+      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1700259732/thbthhrntxu01nernvyj.jpg",
+      "price_product": 7200,
+      "is_deleted": false
+    }
+  ],
+  "length": 34
 }
