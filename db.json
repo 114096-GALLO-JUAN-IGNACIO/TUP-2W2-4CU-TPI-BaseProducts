@@ -143,42 +143,6 @@
       "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1699929445/zixpqboc2untt3lqvtp7.png",
       "price_product": 3150,
       "is_deleted": false
-    },
-    {
-      "description": null,
-      "name": "Caladora 750W",
-      "category": {
-        "name": "Productos Varios",
-        "description": "Productos variados.",
-        "id_category": 1,
-        "is_deleted": null
-      },
-      "discount": null,
-      "id_product": 69,
-      "stock_quantity": 5,
-      "unit_of_measure": null,
-      "unit_price": 16700,
-      "url_image": null,
-      "price_product": null,
-      "is_deleted": false
-    },
-    {
-      "description": "Motor: Honda GX390\nPotencia del motor: 13HP\nMáxima profundidad de corte: 15cm\nPeso en operación: 130kg",
-      "name": "Cortadora Pavimento Ah480 Ø 20 - 13hp Fmt - Motor Honda",
-      "category": {
-        "name": "Productos Varios",
-        "description": "Productos variados.",
-        "id_category": 1,
-        "is_deleted": null
-      },
-      "discount": null,
-      "id_product": 58,
-      "stock_quantity": 2600,
-      "unit_of_measure": null,
-      "unit_price": 26500,
-      "url_image": "https://res.cloudinary.com/drpnytupg/image/upload/v1700427429/jzhssmjs0tjxwjlkt8mw.webp",
-      "price_product": null,
-      "is_deleted": false
     }
   ],
   "length": 10
